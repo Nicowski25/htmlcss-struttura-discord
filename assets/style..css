@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug #app-nav {   
+    width: 70%;
+    height: 50px;
+    background-color: yellow;
+    margin: 10px auto;
+}
+
+.debug #flex-nav {
+    display: flex;  
+    justify-content: space-between;
+}
+
+#links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.debug #app-header {
+    width: 60%;
+    background-color: pink;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.debug #app-main {
+    width: 70%;
+    background-color: gray;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.debug #image1 {
+    background-color: rgb(59, 59, 255);
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.debug #description1 {
+    background-color: pink;
+    width: 60%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#app-main {
+    display: flex;
+}
