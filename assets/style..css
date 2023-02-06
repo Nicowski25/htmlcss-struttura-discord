@@ -17,7 +17,7 @@
 }
 
 #links ul {
-    display: flex;
+    display: flex ;
     list-style: none;
     justify-content: space-around;
 }
@@ -29,27 +29,86 @@
     margin: 10px auto;
 }
 
-.debug #app-main {
+.debug .d-flex {
     width: 70%;
     background-color: gray;
     height: 300px;
     margin: 20px auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
+/* #app-main {
+    background-color: green;
+} */
+
 .debug #image1 {
     background-color: rgb(59, 59, 255);
-    width: 40%;
+    width: 60%;
     padding: 1rem;
-    margin: 1rem;
 }
 
 .debug #description1 {
     background-color: pink;
-    width: 60%;
+    width: 40%;
     padding: 1rem;
-    margin: 1rem;
+
 }
 
-#app-main {
-    display: flex;
+.debug #image2 {
+    background-color: rgb(59, 59, 255);
+    width: 60%;
+    padding: 1rem;
 }
+
+.debug #description2 {
+    background-color: pink;
+    width: 40%;
+    padding: 1rem;
+}
+
+.debug #image3 {
+    background-color: rgb(59, 59, 255);
+    width: 60%;
+    padding: 1rem;
+}
+
+.debug #description3 {
+    background-color: pink;
+    width: 40%;
+    padding: 1rem;
+}
+
+.debug #image4 {
+    background-color:darkgreen;
+    padding: 1rem;
+    width: 100%;
+}
+
+.debug #mainfooter {
+    background-color:firebrick;
+    width: 40%;
+}
+
+.debug #prodotto {
+    background-color:aquamarine;
+    width: 15%;
+    border: 3px solid white;
+}
+
+.debug #compagnia {
+    background-color:aquamarine;
+    width: 15%;
+    border: 3px solid white;}
+
+.debug #risorse {
+    background-color:aquamarine;
+    width: 15%;
+    border: 3px solid white;}
+
+.debug #norme {
+    background-color:aquamarine;
+    width: 15%;
+    border: 3px solid white;}
