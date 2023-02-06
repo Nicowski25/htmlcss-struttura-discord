@@ -4,22 +4,19 @@
     box-sizing: border-box;
 }
 
-.debug #app-nav {   
+.debug #app-nav {
     width: 70%;
     height: 50px;
     background-color: yellow;
     margin: 10px auto;
-}
-
-.debug #flex-nav {
-    display: flex;  
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 #links ul {
-    display: flex ;
     list-style: none;
-    justify-content: space-around;
+    display: flex;
 }
 
 .debug #app-header {
@@ -89,26 +86,27 @@
 
 .debug #mainfooter {
     background-color:firebrick;
-    width: 40%;
+    flex-grow: 3;
+    border: 3px solid white;
 }
 
 .debug #prodotto {
     background-color:aquamarine;
-    width: 15%;
+    flex-grow: 1;
     border: 3px solid white;
 }
 
 .debug #compagnia {
     background-color:aquamarine;
-    width: 15%;
+    flex-grow: 1;
     border: 3px solid white;}
 
 .debug #risorse {
     background-color:aquamarine;
-    width: 15%;
+    flex-grow: 1;
     border: 3px solid white;}
 
 .debug #norme {
     background-color:aquamarine;
-    width: 15%;
+    flex-grow: 1;
     border: 3px solid white;}
